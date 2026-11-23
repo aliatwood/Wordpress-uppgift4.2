@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+
+<?php
+/**
+ * Template for displaying 404 error pages.
+ *
+ * @package NordicLiving
+ */
+
+get_header();
+?>
 
 <main class="error-page">
     <h1>Sidan kunde inte hittas</h1>
@@ -6,4 +15,6 @@
     <a href="<?php echo esc_url(home_url('/')); ?>">Till startsidan</a>
 </main>
 
-<?php get_footer(); ?>
+<?php
+get_footer();
+?>

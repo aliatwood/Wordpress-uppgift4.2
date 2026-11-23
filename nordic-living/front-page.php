@@ -1,5 +1,13 @@
 
-<?php get_header(); ?>
+<?php
+/**
+ * Template for displaying the homepage.
+ *
+ * @package NordicLiving
+ */
+
+get_header();
+?>
 
 <main class="home-page">
     <section class="hero">
@@ -16,32 +24,45 @@
         <h2>Senaste nyheterna</h2>
 
         <?php
-        $news = new WP_Query(array(
-            'post_type' => 'post',
-            'posts_per_page' => 3,
-        ));
+        // Retrieve the three latest news posts.
+        $news = new WP_Query(
+            array(
+                'post_type'      => 'post',
+                'posts_per_page' => 3,
+            )
+        );
 
         if ($news->have_posts()) :
             while ($news->have_posts()) :
                 $news->the_post();
-        ?>
+                ?>
                 <article>
                     <h3>
-                        <a href="<?php the_permalink(); ?>">
-                            <?php the_title(); ?>
+                        <a href="<?php echo esc_url(get_permalink()); ?>">
+                            <?php echo esc_html(get_the_title()); ?>
                         </a>
                     </h3>
+
                     <?php the_excerpt(); ?>
-                    <a href="<?php the_permalink(); ?>">Läs mer</a>
+
+                    <a href="<?php echo esc_url(get_permalink()); ?>">
+                        Läs mer
+                    </a>
                 </article>
-        <?php
+                <?php
             endwhile;
+
+            // Restore the original post query.
             wp_reset_postdata();
         else :
-            echo '<p>Inga nyheter ännu.</p>';
+            ?>
+            <p>Inga nyheter ännu.</p>
+            <?php
         endif;
         ?>
     </section>
 </main>
 
-<?php get_footer(); ?>
+<?php
+get_footer();
+?>
