@@ -143,3 +143,53 @@ main {
         font-size: 32px;
     }
 }
+
+/* AI-redovisning page */
+.page-id-28 .page-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 24px;
+}
+
+.page-id-28 .page-content h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    color: #34382d;
+    margin-bottom: 40px;
+}
+
+.page-id-28 .page-content p {
+    max-width: 750px;
+    margin: 0 auto 24px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #55564d;
+}
+
+@media (max-width: 700px) {
+    .page-id-28 .page-content {
+        padding: 45px 20px;
+    }
+
+    .page-id-28 .page-content h1 {
+        font-size: 32px;
+    }
+}
+
+.page-id-28 .page-content h2 {
+    max-width: 750px;
+    margin: 55px auto 25px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #34382d;
+}
+
+.page-id-28 .page-content ul {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    padding-left: 25px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #55564d;
+}
