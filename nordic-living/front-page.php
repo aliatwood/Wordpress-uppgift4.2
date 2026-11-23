@@ -1,9 +1,15 @@
+
 <?php get_header(); ?>
 
 <main class="home-page">
     <section class="hero">
         <h1>Välkommen till Nordic Living</h1>
         <p>Skandinavisk design för ett harmoniskt hem.</p>
+
+        <img
+            src="<?php echo esc_url('https://nordicliving.infinityfree.me/wp-content/uploads/2026/11/start-1.avif'); ?>"
+            alt="Skandinaviskt vardagsrum med naturliga material"
+        >
     </section>
 
     <section class="latest-news">
