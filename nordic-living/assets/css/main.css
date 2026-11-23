@@ -1,4 +1,3 @@
-
 /*
  * Main stylesheet for the Nordic Living theme.
  *
@@ -7,292 +6,292 @@
 
 /* General styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
-    background-color: #f7f5ef;
-    color: #333;
-    line-height: 1.6;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: #f7f5ef;
+	color: #333;
+	line-height: 1.6;
 }
 
 a {
-    color: #687052;
+	color: #687052;
 }
 
 /* Header and navigation */
 .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 8%;
-    background-color: #e9e5da;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 8%;
+	background-color: #e9e5da;
 }
 
 .site-logo {
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .main-navigation ul {
-    display: flex;
-    gap: 25px;
-    list-style: none;
+	display: flex;
+	gap: 25px;
+	list-style: none;
 }
 
 .main-navigation a {
-    color: #333;
-    text-decoration: none;
+	color: #333;
+	text-decoration: none;
 }
 
 /* Main content */
 main {
-    flex: 1;
-    max-width: 1100px;
-    margin: 60px auto;
-    padding: 0 25px;
+	flex: 1;
+	max-width: 1100px;
+	margin: 60px auto;
+	padding: 0 25px;
 }
 
 /* Homepage hero section */
 .hero {
-    padding: 80px 30px;
-    text-align: center;
-    background-color: #ded9ca;
+	padding: 80px 30px;
+	text-align: center;
+	background-color: #ded9ca;
 }
 
 .hero h1 {
-    margin-bottom: 15px;
-    font-size: 42px;
+	margin-bottom: 15px;
+	font-size: 42px;
 }
 
 /* Latest news and article cards */
 .latest-news {
-    margin-top: 60px;
+	margin-top: 60px;
 }
 
 .news-item,
 .latest-news article {
-    margin: 25px 0;
-    padding: 25px;
-    background-color: #fff;
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
 }
 
 article img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Footer */
 .site-footer {
-    margin-top: auto;
-    padding: 30px;
-    text-align: center;
-    background-color: #e9e5da;
+	margin-top: auto;
+	padding: 30px;
+	text-align: center;
+	background-color: #e9e5da;
 }
 
 /* About page */
 .about-page {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 70px 24px;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 70px 24px;
 }
 
 .about-page h1 {
-    margin-bottom: 40px;
-    color: #34382d;
-    font-size: 42px;
-    font-weight: 500;
-    text-align: center;
+	margin-bottom: 40px;
+	color: #34382d;
+	font-size: 42px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .about-page p {
-    max-width: 750px;
-    margin: 0 auto 24px;
-    color: #55564d;
-    font-size: 18px;
-    line-height: 1.8;
+	max-width: 750px;
+	margin: 0 auto 24px;
+	color: #55564d;
+	font-size: 18px;
+	line-height: 1.8;
 }
 
 /* About page image */
 .about-page figure {
-    max-width: 850px;
-    margin: 0 auto 40px;
+	max-width: 850px;
+	margin: 0 auto 40px;
 }
 
 .about-page figure img {
-    display: block;
-    width: 100%;
-    height: 450px;
-    border-radius: 4px;
-    object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 450px;
+	border-radius: 4px;
+	object-fit: cover;
 }
 
 /* AI report page */
 .page-id-28 .page-content {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 70px 24px;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 70px 24px;
 }
 
 .page-id-28 .page-content h1 {
-    margin-bottom: 40px;
-    color: #34382d;
-    font-size: 42px;
-    font-weight: 500;
-    text-align: center;
+	margin-bottom: 40px;
+	color: #34382d;
+	font-size: 42px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .page-id-28 .page-content h2 {
-    max-width: 750px;
-    margin: 55px auto 25px;
-    color: #34382d;
-    font-size: 26px;
-    font-weight: 500;
+	max-width: 750px;
+	margin: 55px auto 25px;
+	color: #34382d;
+	font-size: 26px;
+	font-weight: 500;
 }
 
 .page-id-28 .page-content p {
-    max-width: 750px;
-    margin: 0 auto 24px;
-    color: #55564d;
-    font-size: 18px;
-    line-height: 1.8;
+	max-width: 750px;
+	margin: 0 auto 24px;
+	color: #55564d;
+	font-size: 18px;
+	line-height: 1.8;
 }
 
 .page-id-28 .page-content ul {
-    max-width: 750px;
-    margin: 0 auto 30px;
-    padding-left: 25px;
-    color: #55564d;
-    font-size: 18px;
-    line-height: 1.8;
+	max-width: 750px;
+	margin: 0 auto 30px;
+	padding-left: 25px;
+	color: #55564d;
+	font-size: 18px;
+	line-height: 1.8;
 }
 
 /* Homepage image and hero styling */
 .home-page .hero {
-    padding: 65px 24px 45px;
-    text-align: center;
+	padding: 65px 24px 45px;
+	text-align: center;
 }
 
 .home-page .hero h1 {
-    color: #34382d;
-    font-size: 42px;
-    font-weight: 500;
+	color: #34382d;
+	font-size: 42px;
+	font-weight: 500;
 }
 
 .home-page .hero p {
-    color: #55564d;
-    font-size: 19px;
-    line-height: 1.8;
+	color: #55564d;
+	font-size: 19px;
+	line-height: 1.8;
 }
 
 .home-page .hero img {
-    display: block;
-    width: 100%;
-    max-width: 1100px;
-    height: 480px;
-    margin: 40px auto 0;
-    border-radius: 4px;
-    object-fit: cover;
+	display: block;
+	width: 100%;
+	max-width: 1100px;
+	height: 480px;
+	margin: 40px auto 0;
+	border-radius: 4px;
+	object-fit: cover;
 }
 
 /* Responsive styles for smaller screens */
 @media (max-width: 700px) {
-    .site-header {
-        flex-direction: column;
-        gap: 20px;
-    }
+	.site-header {
+		flex-direction: column;
+		gap: 20px;
+	}
 
-    .main-navigation ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+	.main-navigation ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
-    .hero h1,
-    .about-page h1,
-    .page-id-28 .page-content h1,
-    .home-page .hero h1 {
-        font-size: 32px;
-    }
+	.hero h1,
+	.about-page h1,
+	.page-id-28 .page-content h1,
+	.home-page .hero h1 {
+		font-size: 32px;
+	}
 
-    .about-page {
-        padding: 45px 20px;
-    }
+	.about-page {
+		padding: 45px 20px;
+	}
 
-    .about-page figure img {
-        height: 280px;
-    }
+	.about-page figure img {
+		height: 280px;
+	}
 
-    .page-id-28 .page-content {
-        padding: 45px 20px;
-    }
+	.page-id-28 .page-content {
+		padding: 45px 20px;
+	}
 
-    .home-page .hero img {
-        height: 280px;
-    }
+	.home-page .hero img {
+		height: 280px;
+	}
 }
 
 
 /* Single news posts */
 .single-post article {
-    max-width: 1100px;
-    margin: 0 auto;
+	max-width: 1100px;
+	margin: 0 auto;
 }
 
 .single-post article h1 {
-    margin-bottom: 25px;
-    color: #34382d;
-    font-size: 42px;
-    font-weight: 500;
-    text-align: center;
+	margin-bottom: 25px;
+	color: #34382d;
+	font-size: 42px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .single-post article > p {
-    margin: 0 auto 35px;
-    color: #77776d;
-    font-size: 16px;
-    text-align: center;
+	margin: 0 auto 35px;
+	color: #77776d;
+	font-size: 16px;
+	text-align: center;
 }
 
 .single-post article > img {
-    display: block;
-    width: 100%;
-    max-width: 850px;
-    height: 450px;
-    margin: 0 auto 45px;
-    border-radius: 4px;
-    object-fit: cover;
+	display: block;
+	width: 100%;
+	max-width: 850px;
+	height: 450px;
+	margin: 0 auto 45px;
+	border-radius: 4px;
+	object-fit: cover;
 }
 
 .single-post .post-content {
-    max-width: 750px;
-    margin: 0 auto;
+	max-width: 750px;
+	margin: 0 auto;
 }
 
 .single-post .post-content p {
-    margin-bottom: 24px;
-    color: #55564d;
-    font-size: 18px;
-    line-height: 1.8;
+	margin-bottom: 24px;
+	color: #55564d;
+	font-size: 18px;
+	line-height: 1.8;
 }
 
 @media (max-width: 700px) {
-    .single-post article h1 {
-        font-size: 32px;
-    }
+	.single-post article h1 {
+		font-size: 32px;
+	}
 
-    .single-post article > img {
-        height: 280px;
-    }
+	.single-post article > img {
+		height: 280px;
+	}
 
-    .single-post .post-content p {
-        font-size: 17px;
-    }
+	.single-post .post-content p {
+		font-size: 17px;
+	}
 }
