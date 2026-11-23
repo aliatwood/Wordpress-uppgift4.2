@@ -193,3 +193,22 @@ main {
     font-size: 18px;
     color: #55564d;
 }
+
+.about-page figure {
+    max-width: 850px;
+    margin: 0 auto 40px;
+}
+
+.about-page figure img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .about-page figure img {
+        height: 280px;
+    }
+}
